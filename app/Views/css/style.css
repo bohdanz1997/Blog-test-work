@@ -1,0 +1,31 @@
+/* like */
+.like{
+    cursor:pointer;
+    width:118px;
+    height:128px;
+    margin:0 auto;
+    position:relative;
+}
+.like:hover.active, .like{
+    background: url('/images/like.png') no-repeat;
+}
+.like.active, .like:hover{
+    background: url('/images/like_active.png') no-repeat;
+}
+.like .counter{
+    color: #333333;
+    font-size: 34px;
+    top: 43px;
+    left: 55px;
+    position: absolute;
+    text-align: center;
+}
+
+/* style ul */
+.feature li{
+    margin: 15px 0;
+    font-size: 18px;
+}
+.feature li > ul li{
+    margin: 5px 0;
+}
